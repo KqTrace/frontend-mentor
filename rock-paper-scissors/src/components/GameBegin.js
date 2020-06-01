@@ -1,10 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Header from "../components/Header"
+import Game from "../components/Game"
 
 function GameBegin(){
-    return (<Header />
-            
+    return (
+            <React.Fragment>
+            <Header />
+            <Game />
+            </React.Fragment>
         );
 }
 

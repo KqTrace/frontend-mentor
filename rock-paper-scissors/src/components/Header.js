@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Img from "../img/logo.svg"
 
 function Header(){
     return (
@@ -8,7 +9,7 @@ function Header(){
                 <div className="row m-0">
                     <div className="col-8 p-0">
                         <div id="title">
-                        <h1 className="text-uppercase">Rock<br/>Paper<br/>Scissors</h1>
+                            <img src={Img}></img>
                         </div>
                     </div>
                     <div className="col-4 p-0 d-flex justify-content-end">
