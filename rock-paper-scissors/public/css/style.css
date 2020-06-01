@@ -81,12 +81,16 @@ body {
 
 #root .game-container {
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 #root .game-container .threehand {
   height: 100%;
   width: 50%;
+  background-image: url("../img/bg-triangle.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 240px 240px;
 }
 
 #root .game-container .threehand .circle {
@@ -110,9 +114,5 @@ body {
   z-index: -1;
   -webkit-box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.75);
-}
-
-#root .game-container .threehand .circle::before:nth-child(1) {
-  background-color: #2a45b9 !important;
 }
 /*# sourceMappingURL=style.css.map */
