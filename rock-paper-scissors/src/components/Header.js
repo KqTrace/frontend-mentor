@@ -4,7 +4,7 @@ import Img from "../img/logo.svg"
 
 function Header(){
     return (
-        <div className="header bordab d-flex justify-content-center align-items-center">
+        <div className="header d-flex justify-content-center align-items-center">
             <div className="scorenav">
                 <div className="row m-0">
                     <div className="col-8 p-0">

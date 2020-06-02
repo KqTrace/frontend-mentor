@@ -5,7 +5,7 @@ import GameBegin from "../components/GameBegin"
 
 function Page(){
     return (
-    <div className="container-fluid bordar p-0">
+    <div className="container-fluid bordar p-3">
     <GameBegin />
     </div>);
 }

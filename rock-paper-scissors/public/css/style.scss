@@ -119,4 +119,18 @@ body{
         }
     }
 
+    .bottompage{
+        width: 100%;
+        border: 1px solid red;
+        height: auto;
+
+        button{
+            width: 100px;
+            font-size: 0.9em;
+            font-weight: lighter;
+            letter-spacing: 0.15em;
+            height: 38px;
+        }
+    }
+
 }
