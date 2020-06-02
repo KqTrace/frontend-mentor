@@ -10,10 +10,10 @@ function ThreeHands(){
     return (
         <div className="threehand">
             <div className="row m-0">
-                <div className="col-md-5 p-0 d-flex justify-content-end">
+                <div className="col-5 p-0 d-flex justify-content-end">
                     <HandItem image={ImgHandPaper} color="#5671f4" behindcolor="#2a45b9"/>
                 </div>
-                <div className="col-md-5 offset-md-2 p-0 d-flex justify-content-left">
+                <div className="col-5 offset-2 p-0 d-flex justify-content-left">
                     <HandItem image={ImgHandScissor} color="#eca821" behindcolor="#c56b1d"/>
                 </div>
             </div>
