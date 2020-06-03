@@ -3,9 +3,11 @@ import ReactDOM from "react-dom";
 
 function HandItem(props){
     return(
-        <div className="circle d-flex align-items-center justify-content-center" style={{borderColor: props.color}}>
-            <div className="circle-behind" style={{backgroundColor: props.behindcolor}}></div>
+        <div className="moldura">
+        <div className="circle-behind" id={props.circlecolor} style={{backgroundColor: props.behindcolor}}></div>
+        <div className="circle d-flex align-items-center justify-content-center" id={props.id} style={{borderColor: props.color}}>
             <img src={props.image} />
+        </div>
         </div>
     );
 }
