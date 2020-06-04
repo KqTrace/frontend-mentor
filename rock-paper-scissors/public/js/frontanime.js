@@ -1,6 +1,26 @@
 $(document).ready(function(){
 
+    var HttpClient = function() {
+        this.get = function(aUrl, aCallback) {
+            var anHttpRequest = new XMLHttpRequest();
+            anHttpRequest.onreadystatechange = function() { 
+                if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                    aCallback(anHttpRequest.responseText);
+            }
+    
+            anHttpRequest.open( "GET", aUrl, true );            
+            anHttpRequest.send( null );
+        }
+    }
+
+
 $(".circle").click(function(evt){
+
+    var client = new HttpClient();
+    client.get('http://localhost:8000?fname=Henry', function(response) {
+    // do something with response
+    });
+
     var clickedElement = this;
     
     let behindcolor;
